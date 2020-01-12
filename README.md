@@ -1,8 +1,25 @@
 ### css-session
 
-1. `What is Reactjs` 
-    - ReactJS basically is an open-source JavaScript library which is used for building user interfaces specifically for single page           applications. 
-    - React also allows us to create reusable UI components.
+1. `Useful css selectors` 
+    - .class
+    - .class1.class2
+    - .class1 .class2
+    - #id
+    - *
+    - element
+    - element.class
+    - element,element
+    - element element
+    - element>element
+    - element+element
+    - element1~element2
+    - :first-child
+    - :hover
+    - :last-child
+    - :not(selector)
+    - :nth-child(n)
+    - :nth-last-child(n)
+    - ::selection
     
 2. `Margin vs Padding`  [source link](https://medium.com/frontendshortcut/margin-vs-padding-c1fc8ea8bfaf)
     - Margin is an element’s personal space — how much distance the element wants to keep with other elements around it.
@@ -50,3 +67,13 @@
   - B (240 to 360)
     - RGBA
     - HSLA
+    
+5. `Css box model` [ex] (https://www.w3schools.com/css/css_boxmodel.asp)
+
+6. `Shorthand properties in css`
+    - 1-value syntax: padding: 10px
+    - 2-value syntax: padding: 10px 20px
+    - 3-value syntax: padding: 10px 15px 20px
+    - 4-value syntax: padding: 10px 15px 20px 25px
+    
+
