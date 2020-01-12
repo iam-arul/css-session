@@ -8,22 +8,45 @@
     - Margin is an element’s personal space — how much distance the element wants to keep with other elements around it.
     - Padding is how much an element is away from itself — how much distance an element wants to keep with the elements inside it.
     - It has testing tool (Developer tools)
-    - They both are used to create gaps around elements, but they differ in their method of creating that gap. Margin accommodates the gap       by pushing adjacent elements away from it, while Padding accommodates the gap by either growing its own size or by shrinking the           size of content inside it.
+    - They both are used to create gaps around elements, but they differ in their method of creating that gap. Margin accommodates the          gap by pushing adjacent elements away from it, while Padding accommodates the gap by either growing its own size or by shrinking        the size of content inside it.
+    - Use padding when:
+        - Keep your element inside, to control touching the parent border
+        - To increase your element size
+        - You want the background of the element to be displayed in the produced gap
+     - Use margin when:
+        - You want to have some space around an element, or you don’t want the element to touch other elements around it:
+        - You want to center an element. If you give “margin: auto” to an element with fixed width, it will center that element  
+          horizontally (and vertically too if using flexbox)
+        - You want the background of the element to be displayed in the produced gap
     
-4. `Three Ways to Insert CSS`
+3. `Three Ways to Insert CSS`
     - External CSS
     - Internal CSS
     - Inline CSS
-    
- 4. `Different types of color values`
-    - RGB (255, 255, 255)
-      - 0 to 255
-    - HEX (#ffffff)
-      - 00 to ff 
-      - rgb values of hex numbers (ff ff ff)
-    - HSL 
-      - R (0 to 120 deg)
-      - G (120 to 240 deg)
-      - B (240 to 360)
+
+3. `Css units` 
+    - Absolute Units
+        - px, pt, cm, mm, in
+    - Relative Units
+       - % - Relative to the parent element’s value for that property
+       - em	- Relative to the current font-size of the element
+       - rem - Relative to the font-size of the root (e.g. the <html> element). “rem” = “root em”
+       - ch	- Number of characters (1 character is equal to the width of the current font’s 0/zero)
+       - vh	- Relative to the height of the viewport (window or app size). 1vh = 1/100 of the viewport’s height
+       - vw	- Relative to the width of viewport. 1vw = 1/100 of the viewport’s width.
+       - vmin - Relative to viewport’s smaller dimension (e.g. for portrait orientation, the width is smaller than the height so it’s            relative to the width). 1vmin = 1/100 of viewport’s smaller dimension.
+       - vmax - Relative to viewport’s larger dimension (e.g. height for portrait orientation). 1vmax = 1/100 of viewport’s larger                 dimension.
+       - ex - Relative to height of the current font’s lowercase “x”.
+
+4. `Different types of color values`
+- RGB (255, 255, 255)
+  - 0 to 255
+- HEX (#ffffff)
+  - 00 to ff 
+  - rgb values of hex numbers (ff ff ff)
+- HSL 
+  - R (0 to 120 deg)
+  - G (120 to 240 deg)
+  - B (240 to 360)
     - RGBA
     - HSLA
