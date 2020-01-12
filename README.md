@@ -21,7 +21,8 @@
     - :nth-last-child(n)
     - ::selection
  
-2 . `pseudo selectors` [reference](https://www.w3schools.com/css/css_pseudo_classes.asp)
+2. `pseudo selectors` [reference] (https://www.w3schools.com/css/css_pseudo_classes.asp)
+
     - Pseudo-classes
         - Style an element when a user mouses over it
         - Style visited and unvisited links differently
@@ -95,4 +96,3 @@
     - 3-value syntax: padding: 10px 15px 20px
     - 4-value syntax: padding: 10px 15px 20px 25px
     
-
