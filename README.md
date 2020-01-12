@@ -5,7 +5,7 @@
     - .class1.class2
     - .class1 .class2
     - #id
-    - *
+    - `*`
     - element
     - element.class
     - element,element
@@ -20,8 +20,27 @@
     - :nth-child(n)
     - :nth-last-child(n)
     - ::selection
-    
-2. `Margin vs Padding`  [source link](https://medium.com/frontendshortcut/margin-vs-padding-c1fc8ea8bfaf)
+ 
+2 . `pseudo selectors` [reference](https://www.w3schools.com/css/css_pseudo_classes.asp)
+    - Pseudo-classes
+        - Style an element when a user mouses over it
+        - Style visited and unvisited links differently
+        - Style an element when it gets focus
+        - e.x (:hover, :first-child, :nth-child, :visited, :not ...)
+    - pseudo-elements
+        - A CSS pseudo-element is used to style specified parts of an element.
+        - Style the first letter, or line, of an element
+        - Insert content before, or after, the content of an element
+        - pseudo-element can only be applied to block-level elements
+        - e.x (::before, ::after, ::first-line, ::first-letter)
+        
+3. `Css Display property`
+    - Inline
+    - Inline-block
+    - Block
+    - Flex
+    - Grid
+3. `Margin vs Padding`  [source link](https://medium.com/frontendshortcut/margin-vs-padding-c1fc8ea8bfaf)
     - Margin is an element’s personal space — how much distance the element wants to keep with other elements around it.
     - Padding is how much an element is away from itself — how much distance an element wants to keep with the elements inside it.
     - It has testing tool (Developer tools)
