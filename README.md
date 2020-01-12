@@ -92,8 +92,8 @@
   - R (0 to 120 deg)
   - G (120 to 240 deg)
   - B (240 to 360)
-  - RGBA
-  - HSLA
+- RGBA
+- HSLA
     
 9. `Css box model` [ex] (https://www.w3schools.com/css/css_boxmodel.asp)
 
