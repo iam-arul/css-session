@@ -41,7 +41,14 @@
     - Block
     - Flex
     - Grid
-3. `Margin vs Padding`  [source link](https://medium.com/frontendshortcut/margin-vs-padding-c1fc8ea8bfaf)
+    
+4. `Css Position property`
+    - static
+    - relative
+    - absolute
+    - fixed
+    - Grid
+5. `Margin vs Padding`  [source link](https://medium.com/frontendshortcut/margin-vs-padding-c1fc8ea8bfaf)
     - Margin is an element’s personal space — how much distance the element wants to keep with other elements around it.
     - Padding is how much an element is away from itself — how much distance an element wants to keep with the elements inside it.
     - It has testing tool (Developer tools)
@@ -56,12 +63,12 @@
           horizontally (and vertically too if using flexbox)
         - You want the background of the element to be displayed in the produced gap
     
-3. `Three Ways to Insert CSS`
+6. `Three Ways to Insert CSS`
     - External CSS
     - Internal CSS
     - Inline CSS
 
-3. `Css units` 
+7. `Css units` 
     - Absolute Units
         - px, pt, cm, mm, in
     - Relative Units
@@ -75,7 +82,7 @@
        - vmax - Relative to viewport’s larger dimension (e.g. height for portrait orientation). 1vmax = 1/100 of viewport’s larger                 dimension.
        - ex - Relative to height of the current font’s lowercase “x”.
 
-4. `Different types of color values`
+8. `Different types of color values`
 - RGB (255, 255, 255)
   - 0 to 255
 - HEX (#ffffff)
@@ -88,9 +95,9 @@
     - RGBA
     - HSLA
     
-5. `Css box model` [ex] (https://www.w3schools.com/css/css_boxmodel.asp)
+9. `Css box model` [ex] (https://www.w3schools.com/css/css_boxmodel.asp)
 
-6. `Shorthand properties in css`
+10. `Shorthand properties in css`
     - 1-value syntax: padding: 10px
     - 2-value syntax: padding: 10px 20px
     - 3-value syntax: padding: 10px 15px 20px
